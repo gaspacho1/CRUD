@@ -17,7 +17,7 @@ public class FirstMicroserviceApplication {
 	@GetMapping("/hello")
 	@ResponseBody
 	public String hello () {
-		return "Hello";
+		return "Hello World";
 	}
 
 }
